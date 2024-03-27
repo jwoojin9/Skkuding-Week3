@@ -47,10 +47,6 @@ nav a {
   font-weight: var(--font-bold);
 }
 
-body nav a:hover {
-  opacity: 20%;
-}
-
 nav a:hover {
   opacity: 80%;
 }
