@@ -1,5 +1,6 @@
 const urlParams = new URL(location.href).searchParams;
 const n = parseInt(urlParams.get('n'));
+history.replaceState({}, null, location.pathname);
 
 var img = document.createElement("img");
 img.src=`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${n+1}.png`
