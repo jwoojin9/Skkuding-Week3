@@ -1,5 +1,5 @@
 .img-wrapper {
-    border-radius: 100%;
+    border-radius: 50%;
     overflow: hidden;
     border: var(--border-dark);
     aspect-ratio: 1/1;

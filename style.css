@@ -88,7 +88,7 @@ main {
   height: 4rem;
 }
 
-.card .info-wrapper {
+.card .info-wrapper { 
   display: flex;
   flex-direction: column;
   gap: 0.3rem;
